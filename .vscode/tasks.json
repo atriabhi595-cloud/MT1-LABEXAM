@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Install dependencies", "type": "shell", "command": "npm install", "problemMatcher": [] },
+    { "label": "Run HTTP Server (3000)", "type": "shell", "command": "node httpServer.js", "problemMatcher": [] },
+    { "label": "Run Express App (4000)", "type": "shell", "command": "node expressApp.js", "problemMatcher": [] }
+  ]
+}
